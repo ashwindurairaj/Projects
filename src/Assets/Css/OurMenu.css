@@ -1,0 +1,144 @@
+.our-menu {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  .our-menu-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.89);
+    text-shadow: 0px 2px 10px #428f19;
+
+  }
+  
+  .our-menu-description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    flex-wrap: wrap;
+  }
+  
+  .menu-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 230px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    transform: rotate(0deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .mmnu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .wrpp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05) rotate(0deg);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .menu-item-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .menu-item-like {
+    font-size: 1.2rem;
+    color: red;
+  }
+  
+  /* Add rotation for slanted effect */
+  .rotate-left {
+    transform: rotate(-10deg); /* Slightly tilted left */
+  }
+  
+  .rotate-right {
+    transform: rotate(10deg);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .our-menu-title {
+      font-size: 2rem;
+    }
+  
+    .our-menu-description {
+      font-size: 1rem;
+      width: 90%;
+    }
+  
+    .menu-card {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .our-menu-title {
+      font-size: 1.8rem;
+    }
+  
+    .menu-card {
+      width: 180px;
+    }
+  
+    .menu-item-name {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .our-menu-title {
+      font-size: 1.5rem;
+    }
+  
+    .our-menu-description {
+      font-size: 0.9rem;
+    }
+  
+    .menu-card {
+      width: 150px;
+    }
+  
+    .menu-item-name {
+      font-size: 0.8rem;
+    }
+    .our-menu {
+        padding:20px;
+        text-align: center;
+        color: white;
+      }
+      
+  }
+  
